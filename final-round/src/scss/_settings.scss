@@ -21,6 +21,12 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -43,66 +49,56 @@ ul {
   list-style: none;
 }
 
-input,
-textarea {
-  width: 100%;
+@media (min-width: 320px) {
+  .wrapper {
+    width: 320px;
+    padding-bottom: 15px;
+  }
 }
 
-textarea {
-  resize: none;
+@media (min-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
 }
+
+
+// input,
+// textarea {
+//   width: 100%;
+// }
+
+// textarea {
+//   resize: none;
+// }
 
 /*Меняем цвет плейсхолдера в инпуте Сафари и Хром*/
 /*Меняем цвет плейсхолдера в инпуте для Мозилы */
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder,
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  color: $gray;
-}
+// input::-webkit-input-placeholder,
+// textarea::-webkit-input-placeholder,
+// input::-moz-placeholder,
+// textarea::-moz-placeholder {
+//   color: $gray;
+// }
 
-input:focus,
-textarea:focus {
-  outline:none;
-}
+// input:focus,
+// textarea:focus {
+//   outline:none;
+// }
 
-footer {
-  background: $footer-background;
-}
+// .container {
+//   max-width: 1810px;
+//   margin: 0 auto;
+//   padding-right: 20px;
+//   padding-left: 20px;
 
-.is--hidden {
-  display: none !important;
-}
+//   @media (max-width: 1200px) {
+//     padding-right: 50px;
+//     padding-left: 50px;
+//   }
 
-.btn--reset {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.btn:active,
-.btn:focus {
-  outline: none;
-}
-
-.error {
-  border: 2px var(--error-red) solid !important;
-}
-
-.container {
-  max-width: 1810px;
-  margin: 0 auto;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  @media (max-width: 1200px) {
-    padding-right: 50px;
-    padding-left: 50px;
-  }
-
-  @media (max-width: 576px) {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
+//   @media (max-width: 576px) {
+//     padding-right: 15px;
+//     padding-left: 15px;
+//   }
+// }
