@@ -1,0 +1,44 @@
+@media (min-width: 320px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid #D9FFF5;
+    padding: 18px 16px;
+    &-burger {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    &__item {
+    }
+    &__item--line-tb {
+      display: none;
+      width: 2px;
+      height: 32px;
+      border-radius: 1px;
+      background: #eaeaea;
+    }
+    &__item--line-mb {
+      width: 2px;
+      height: 32px;
+      border-radius: 1px;
+      background: #eaeaea;
+    }
+    &-services {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    &__item--line-tb {
+      display: block;
+    }
+    &__item--line-mb {
+    }
+  }
+}
