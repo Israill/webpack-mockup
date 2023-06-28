@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "focus-visible": "^5.2.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "swiper": "^9.4.1"
   }
 }
