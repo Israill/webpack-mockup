@@ -3,7 +3,10 @@
 @import "vendor";
 @import "vars";
 @import "settings";
-
+@import "./components/_swiper.scss";
+@import "./components/_header.scss";
+@import "./components/services";
+@import "./components/brands";
 
 .header {
   text-align: center;
