@@ -19,6 +19,9 @@
       border-radius: 1px;
       background: #eaeaea;
     }
+    &__item--mb {
+      display: none;
+    }
     &__item--line-mb {
       width: 2px;
       height: 32px;
@@ -35,6 +38,9 @@
 
 @media (min-width: 768px) {
   .navbar {
+    &__item--mb {
+      display: block;
+    }
     &__item--line-tb {
       display: block;
     }
