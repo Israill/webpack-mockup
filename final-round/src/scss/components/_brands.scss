@@ -1,18 +1,22 @@
 .brands {
+  .swiper {
+    &-wrapper {
+    }
+    &-slide {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 224px;
+    }
+    .button-next {
+    }
+    &-pagination {
+    }
+  }
 }
 .subtitle {
-    margin: 16px 0;
-    padding: 16px;
-    background: linear-gradient(270deg, #F8F8F8 0%, #FFF 100%);
-    border-top: 1px solid #D9FFF5;;
-}
-.swiper {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-.button-next {
-}
-.swiper-pagination {
+  margin: 16px 0;
+  padding: 16px;
+  background: linear-gradient(270deg, #f8f8f8 0%, #fff 100%);
+  border-top: 1px solid #d9fff5;
 }

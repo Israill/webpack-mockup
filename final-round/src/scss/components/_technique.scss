@@ -1,0 +1,17 @@
+.technique {
+  .swiper {
+    &-wrapper {
+    }
+    &-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 240px;
+      height: 160px;
+      img {
+        align-self: end;
+      }
+    }
+  }
+}

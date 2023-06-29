@@ -1,0 +1,27 @@
+.price {
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 260px;
+    height: 200px;
+
+    &__time {
+      display: flex;
+      justify-content: space-between;
+      gap: 28px;
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 119px;
+        height: 32px;
+        border-radius: 16px;
+        background: #ff3e79;
+        color: white;
+      }
+    }
+  }
+}
