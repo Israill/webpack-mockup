@@ -2,12 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-
-
-*:focus{
-  outline: 2px solid transparent;
-}
-
 body {
   overflow-anchor: none;
   margin: 0;
@@ -33,12 +27,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
-img {
-  height: auto;
-  max-width: 100%;
-  object-fit: cover;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -52,14 +40,14 @@ button {
 
 @media (min-width: 320px) {
   .wrapper {
-    width: 320px;
+    width: 100vw;
     padding-bottom: 15px;
   }
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    width: 768px;
+    width: 100vw;
   }
 }
 

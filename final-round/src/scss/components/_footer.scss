@@ -1,13 +1,13 @@
 .footer {
   // .footer__content
   &__content {
-      padding: 0 16px;
-      p {
-          padding: 16px 0;
-        }
-        .footer__btn {
-        width: 200px;
-
+    padding: 0 16px;
+    p {
+      padding: 16px 0;
+    }
+    .footer__btn {
+      width: 200px;
+      font-size: 16px;
     }
   }
 
@@ -15,10 +15,10 @@
 
   &__info {
     margin-top: 40px;
-    border-top: 1px solid #D9FFF5;;
+    border-top: 1px solid #d9fff5;
     text-align: center;
     p {
-        padding: 8px 0;
+      padding: 8px 0;
     }
   }
 }

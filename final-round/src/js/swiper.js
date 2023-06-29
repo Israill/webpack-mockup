@@ -23,8 +23,6 @@ import "swiper/scss/navigation";
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".button-next",
-    prevEl: ".swiper-button-prev",
     clickable: true,
   },
   modules: [Navigation, Pagination],

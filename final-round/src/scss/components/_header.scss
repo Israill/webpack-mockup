@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
-    border-bottom: 1px solid #D9FFF5;
+    border-bottom: 1px solid #d9fff5;
     padding: 18px 16px;
     &-burger {
       display: flex;
@@ -34,6 +34,12 @@
       gap: 16px;
     }
   }
+  .services-content__tb {
+    display: none;
+  }
+  .services-content__dt {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -46,5 +52,22 @@
     }
     &__item--line-mb {
     }
+  }
+  .services-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    &__text {
+      width: 50%;
+    }
+    &__img {
+      img {
+        width: 360px;
+        border-radius: 6px;
+      }
+    }
+  }
+  .services-content__tb {
+    display: block;
   }
 }

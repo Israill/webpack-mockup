@@ -20,3 +20,11 @@
   background: linear-gradient(270deg, #f8f8f8 0%, #fff 100%);
   border-top: 1px solid #d9fff5;
 }
+
+@media (min-width: 768px) {
+  .brands {
+    .swiper {
+      display: none;
+    }
+  }
+}
