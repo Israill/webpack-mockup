@@ -1,7 +1,6 @@
 .footer {
   // .footer__content
   &__content {
-    padding: 0 16px;
     p {
       padding: 16px 0;
     }
@@ -19,6 +18,27 @@
     text-align: center;
     p {
       padding: 8px 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .footer__info {
+    display: flex;
+    gap: 40px;
+    padding-top: 32px;
+    p {
+        width: 30vw;
+    }
+    p:first-child{
+        text-align: left;
+    }
+    p:last-child{
+        text-align: right;
     }
   }
 }

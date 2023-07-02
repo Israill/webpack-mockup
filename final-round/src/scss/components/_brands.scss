@@ -13,6 +13,9 @@
     &-pagination {
     }
   }
+  &-content {
+    display: none;
+  }
 }
 .subtitle {
   margin: 16px 0;
@@ -20,11 +23,55 @@
   background: linear-gradient(270deg, #f8f8f8 0%, #fff 100%);
   border-top: 1px solid #d9fff5;
 }
+#brands-btn {
+  display: none;
+}
 
 @media (min-width: 768px) {
   .brands {
     .swiper {
       display: none;
     }
+    &-content-wrapper {
+      width: 768px;
+      margin: 24px auto;
+    }
+    &-content {
+      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    &-content-item {
+      display: flex;
+      justify-content: center;
+      width: 220px;
+      height: 72px;
+      background-color: white;
+      border-radius: 6px;
+      border: 1px solid rgba(234, 234, 234, 1);
+
+      // &_dt {
+      //   display: none;
+      // }
+
+
+      &__wrapper {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  #brands-btn {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 24px 0 0 24px;
+    font-size: 16px;
   }
 }
