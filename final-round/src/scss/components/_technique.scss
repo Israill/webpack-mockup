@@ -14,4 +14,40 @@
       }
     }
   }
+  &-content-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .swiper {
+    display: none;
+  }
+  .technique-content-wrapper {
+    display: block;
+    width: 768px;
+    margin: 24px auto;
+  }
+  .technique-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .swiper-slide {
+    padding: 0;
+    p {
+      padding-left: 16px;
+    }
+    img {
+      padding-right: 16px;
+    }
+  }
+  #technique-btn {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 24px 0 0 24px;
+    font-size: 16px;
+  }
 }
