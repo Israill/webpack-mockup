@@ -35,7 +35,7 @@
   
   .price-content-wrapper {
     display: block;
-    width: 768px;
+    max-width: 768px;
     margin: 24px auto;
   }
 
@@ -59,6 +59,45 @@
       }
     }
 
+  }
+  
+}
+
+@media (min-width: 1426px) {
+  .price {
+  }
+  .subtitle {
+  }
+  .swiper {
+  }
+  .swiper-wrapper {
+  }
+  .swiper-slide {
+  
+      // .swiper-slide__service
+  
+      &__service {
+      }
+  
+      // .swiper-slide__price
+  
+      &__price {
+      }
+  
+      // .swiper-slide__time
+  
+      &__time {
+      }
+  }
+  .swiper-pagination {
+  }
+  .price-content-wrapper {
+    max-width: 1000px;
+    margin: 24px auto;
+  }
+  .price-content {
+  }
+  .tr-no-line {
   }
   
 }

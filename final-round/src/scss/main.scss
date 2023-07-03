@@ -10,15 +10,5 @@
 @import "./components/technique";
 @import "./components/price";
 @import "./components/footer";
+@import "./components/wrapper";
 
-.header {
-  text-align: center;
-  & img {
-    width: 30%;
-  }
-}
-
-.welcome-title {
-  margin-top: 50px;
-  font-size: 6em;
-}

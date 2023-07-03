@@ -55,7 +55,6 @@
       //   display: none;
       // }
 
-
       &__wrapper {
         height: 100%;
         width: 90%;
@@ -73,5 +72,38 @@
     gap: 8px;
     margin: 24px 0 0 24px;
     font-size: 16px;
+  }
+}
+@media (min-width: 1426px) {
+  .brands {
+  }
+  .subtitle {
+  }
+  .swiper {
+  }
+  .swiper-wrapper {
+  }
+  .swiper-slide {
+  }
+  .button-next {
+  }
+  .swiper-pagination {
+  }
+  .brands-content-wrapper {
+    width: 1000px;
+    margin: 24px auto;
+  }
+  .brands-content {
+  }
+  .brands-content-item {
+    // .brands-content-item_dt
+
+    &_dt {
+    }
+
+    // .brands-content-item__wrapper
+
+    &__wrapper {
+    }
   }
 }

@@ -38,14 +38,60 @@
 
 @media (min-width: 768px) {
   .navbar {
-    &__item--mb {
+
+		// .navbar__item
+
+		&__item {
+		}
+
+		// .navbar__item--line-tb
+
+		&__item--line-tb {
       display: block;
+		}
+
+		// .navbar__item--mb
+
+		&__item--mb {
+      display: block;
+		}
+
+		// .navbar__item--line-mb
+
+		&__item--line-mb {
+		}
+}
+.navbar-burger {
+}
+.navbar-services {
+}
+
+}
+
+@media (min-width: 1426px) {
+  .navbar {
+    // .navbar__item
+
+    &__item {
     }
+
+    // .navbar__item--line-tb
+
     &__item--line-tb {
-      display: block;
     }
+
+    // .navbar__item--mb
+
+    &__item--mb {
+    }
+
+    // .navbar__item--line-mb
+
     &__item--line-mb {
     }
   }
-
+  .navbar-burger {
+  }
+  .navbar-services {
+  }
 }
