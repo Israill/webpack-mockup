@@ -1,15 +1,5 @@
 @media (min-width: 320px) {
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    border-bottom: 1px solid #d9fff5;
-    padding: 18px 16px;
-    &-burger {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
     &__item {
     }
     &__item--line-tb {
@@ -18,6 +8,9 @@
       height: 32px;
       border-radius: 1px;
       background: #eaeaea;
+    }
+    &__item--dt {
+      display: none;
     }
     &__item--mb {
       display: none;
@@ -28,47 +21,43 @@
       border-radius: 1px;
       background: #eaeaea;
     }
-    &-services {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid #d9fff5;
+    padding: 18px 16px;
+  }
+  .navbar-burger {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .navbar-burger-nav {
+    display: none;
+  }
+  .navbar-services-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-services {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .mail {
+    display: none;
+  }
+  .phone-num {
+    display: none;
+  }
+  .lang {
+    display: none;
   }
 }
 
 @media (min-width: 768px) {
-  .navbar {
-
-		// .navbar__item
-
-		&__item {
-		}
-
-		// .navbar__item--line-tb
-
-		&__item--line-tb {
-      display: block;
-		}
-
-		// .navbar__item--mb
-
-		&__item--mb {
-      display: block;
-		}
-
-		// .navbar__item--line-mb
-
-		&__item--line-mb {
-		}
-}
-.navbar-burger {
-}
-.navbar-services {
-}
-
-}
-
-@media (min-width: 1426px) {
   .navbar {
     // .navbar__item
 
@@ -78,6 +67,40 @@
     // .navbar__item--line-tb
 
     &__item--line-tb {
+      display: block;
+    }
+
+    // .navbar__item--mb
+
+    &__item--mb {
+      display: block;
+    }
+
+    // .navbar__item--line-mb
+
+    &__item--line-mb {
+    }
+  }
+  .navbar-burger {
+  }
+  .navbar-services {
+  }
+}
+
+@media (min-width: 1426px) {
+  .navbar {
+    // .navbar__item
+    background-color: white;
+    &__item {
+    }
+    &__item--dt {
+      display: block;
+    }
+
+    // .navbar__item--line-tb
+
+    &__item--line-tb {
+      display: none;
     }
 
     // .navbar__item--mb
@@ -90,8 +113,99 @@
     &__item--line-mb {
     }
   }
-  .navbar-burger {
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    height: 100vh;
+    min-height: 800px;
   }
+
+  .navbar-burger {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 22px;
+    img:first-child {
+      display: none;
+    }
+  }
+
+  .navbar-burger-nav {
+    display: block;
+  }
+  .nav {
+    // .nav__item
+    li {
+      margin: 32px 0;
+    }
+    a {
+      padding: 10px 24px;
+    }
+    &__item {
+      color: rgba(27, 28, 33, 1);
+      font-size: 16px;
+      text-decoration: none;
+    }
+    &__item:focus {
+      transition: all 0.3s;
+      border-left: 4px solid rgba(65, 246, 215, 1);
+      color: rgba(126, 126, 130, 1);
+    }
+    &__item:hover {
+      transition: all 0.3s;
+      color: rgba(126, 126, 130, 1);
+    }
+  }
+  .navbar-services-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 19px;
+  }
+
   .navbar-services {
+    .navbar__item--line-mb {
+      display: none;
+    }
+    .navbar__item {
+      display: none;
+    }
+  }
+  .mail {
+    display: block;
+    margin: 16px 0;
+  }
+  .mail a:hover {
+    transition: all 0.2s;
+    color: rgba(126, 126, 130, 1);
+  }
+  .phone-num {
+    display: block;
+  }
+  .phone-num a {
+    font-family: "TT Lakes Bold";
+    font-size: 24px;
+  }
+  .phone-num a:hover {
+    font-family: "TT Lakes Bold";
+    font-size: 24px;
+    transition: all 0.2s;
+    color: rgba(126, 126, 130, 1);
+  }
+  .lang {
+    display: block;
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+  }
+  .lang__item {
+    cursor: pointer;
+  }
+  .lang__item:hover {
+    text-decoration: underline;
+    transition: all 0.2s;
+    color: rgba(126, 126, 130, 1);
   }
 }
