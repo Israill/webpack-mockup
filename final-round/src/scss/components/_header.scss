@@ -29,12 +29,18 @@
     border-bottom: 1px solid #d9fff5;
     padding: 18px 16px;
   }
+  .navbar-container-sidebar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 18px 16px;
+  }
   .navbar-burger {
     display: flex;
     align-items: center;
     gap: 16px;
   }
-  .navbar-burger-nav {
+  .navbar-burger-nav-wrapper {
     display: none;
   }
   .navbar-services-wrapper {
@@ -132,32 +138,10 @@
     }
   }
 
-  .navbar-burger-nav {
+  .navbar-burger-nav-wrapper {
     display: block;
   }
-  .nav {
-    // .nav__item
-    li {
-      margin: 32px 0;
-    }
-    a {
-      padding: 10px 24px;
-    }
-    &__item {
-      color: rgba(27, 28, 33, 1);
-      font-size: 16px;
-      text-decoration: none;
-    }
-    &__item:focus {
-      transition: all 0.3s;
-      border-left: 4px solid rgba(65, 246, 215, 1);
-      color: rgba(126, 126, 130, 1);
-    }
-    &__item:hover {
-      transition: all 0.3s;
-      color: rgba(126, 126, 130, 1);
-    }
-  }
+
   .navbar-services-wrapper {
     display: flex;
     flex-direction: column;
@@ -175,37 +159,66 @@
   }
   .mail {
     display: block;
-    margin: 16px 0;
-  }
-  .mail a:hover {
-    transition: all 0.2s;
-    color: rgba(126, 126, 130, 1);
   }
   .phone-num {
     display: block;
   }
-  .phone-num a {
-    font-family: "TT Lakes Bold";
-    font-size: 24px;
-  }
-  .phone-num a:hover {
-    font-family: "TT Lakes Bold";
-    font-size: 24px;
-    transition: all 0.2s;
-    color: rgba(126, 126, 130, 1);
-  }
   .lang {
     display: block;
     display: flex;
-    gap: 7px;
-    margin-top: 30px;
   }
-  .lang__item {
-    cursor: pointer;
+}
+.nav {
+  // .nav__item
+  li {
+    margin: 32px 0;
   }
-  .lang__item:hover {
-    text-decoration: underline;
-    transition: all 0.2s;
+  a {
+    padding: 10px 24px;
+  }
+  &__item {
+    color: rgba(27, 28, 33, 1);
+    font-size: 16px;
+    text-decoration: none;
+  }
+  &__item:focus {
+    transition: all 0.3s;
+    border-left: 4px solid rgba(65, 246, 215, 1);
     color: rgba(126, 126, 130, 1);
   }
+  &__item:hover {
+    transition: all 0.3s;
+    color: rgba(126, 126, 130, 1);
+  }
+}
+.mail {
+  margin: 16px 0;
+}
+.mail a:hover {
+  transition: all 0.2s;
+  color: rgba(126, 126, 130, 1);
+}
+.phone-num {
+}
+.phone-num a {
+  font-family: "TT Lakes Bold";
+  font-size: 24px;
+}
+.phone-num a:hover {
+  font-family: "TT Lakes Bold";
+  font-size: 24px;
+  transition: all 0.2s;
+  color: rgba(126, 126, 130, 1);
+}
+.lang {
+  gap: 7px;
+  margin-top: 30px;
+}
+.lang__item {
+  cursor: pointer;
+}
+.lang__item:hover {
+  text-decoration: underline;
+  transition: all 0.2s;
+  color: rgba(126, 126, 130, 1);
 }
