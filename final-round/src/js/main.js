@@ -3,3 +3,4 @@ import "../scss/main.scss";
 import "../index.html";
 import "./swiper";
 import "./sidebar.js";
+import "./feedback.js";
