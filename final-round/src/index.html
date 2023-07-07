@@ -8,6 +8,7 @@
   </head>
   <body>
     <div class="wrapper">
+
       <div class="sidebar-wrapper">
         <div class="sidebar">
           <div class="navbar-container-sidebar">
@@ -53,11 +54,13 @@
           <div class="navbar-services-wrapper-sidebar">
             <div class="navbar-services">
               <img
+              id="call"
                 class="navbar__item--mb"
                 src="./img/navbar/call.svg"
                 alt=""
               />
               <img
+              id="message"
                 class="navbar__item--mb"
                 src="./img/navbar/chat.svg"
                 alt=""
@@ -84,7 +87,56 @@
           </div>
         </div>
       </div>
-      <div id="sidebar--tb" class="sidebar--tb"></div>
+
+      <div id="sidebar-tb" class="sidebar-tb"></div>
+
+      <div class="feedback-wrapper">
+        <div class="closed-feedback">
+          <img id="closed-feedback" src="./img/mobileImg/burgerclose.svg" alt="">
+        </div>
+        <div id="feedback" class="feedback">
+          <div class="title">
+            <h1 class="title--feedback"></h1>
+          </div>
+          <form class="feedback-form">
+            <div class="feedback-form-block">
+              <div class="feedback-form__item">
+                <input placeholder="Имя" type="text" name="username" required />
+              </div>
+              <div class="feedback-form__item">
+                <input
+                  placeholder="Телефон"
+                  type="text"
+                  name="usernumber"
+                  required
+                />
+              </div>
+              <div class="feedback-form__item">
+                <input
+                  placeholder="Электронная почта"
+                  type="text"
+                  name="usermail"
+                />
+              </div>
+              <div class="feedback-form__item">
+                <textarea placeholder="Сообщение" name="usermessage" ></textarea>
+              </div>
+              <div class="feedback-form__item">
+                <p>Нажимая “отправить”, вы даете согласие на <span> обработку персональных данных </span> и соглашаетесь с нашей <span> политикой конфиденциальности</span></p>
+              </div>
+
+              <div class="feedback-form__item">
+                <button>
+                  ОТПРАВИТЬ
+                  <img src="./img/swiper/goside.svg" alt="" />
+                </button>
+              </div>
+              </div>
+            </div>
+          </form>
+      </div>
+
+      <div class="feedback-tb" id="feedback-tb"></div>
 
       <header class="navbar">
         <div class="navbar-container">
@@ -132,11 +184,13 @@
           <div class="navbar-services-wrapper">
             <div class="navbar-services">
               <img
+              id="call-dt"
                 class="navbar__item--mb"
                 src="./img/navbar/call.svg"
                 alt=""
               />
               <img
+              id="message-dt"
                 class="navbar__item--mb"
                 src="./img/navbar/chat.svg"
                 alt=""
