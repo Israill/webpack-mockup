@@ -1,6 +1,6 @@
 document.getElementById("sidebar").addEventListener("click", () => {
   document.querySelector(".sidebar-wrapper").style.display = "block";
-  document.querySelector(".sidebar--tb").style.display = "block";
+  document.querySelector(".sidebar-tb").style.display = "block";
   //   document.querySelector(".navbar__item--dt").style.display = "block";
   //   document.querySelector(".navbar__item--line-tb").style.display = "none";
   //   const navbarContainer = document.querySelector(".navbar-container");
@@ -38,11 +38,11 @@ document.getElementById("sidebar").addEventListener("click", () => {
 });
 document.getElementById("closed").addEventListener("click", () => {
   document.querySelector(".sidebar-wrapper").style.display = "none";
-  document.querySelector(".sidebar--tb").style.display = "none";
+  document.querySelector(".sidebar-tb").style.display = "none";
 });
 
 
-document.getElementById("sidebar--tb").addEventListener("click", () => {
+document.getElementById("sidebar-tb").addEventListener("click", () => {
   document.querySelector(".sidebar-wrapper").style.display = "none";
-  document.querySelector(".sidebar--tb").style.display = "none";
+  document.querySelector(".sidebar-tb").style.display = "none";
 })
