@@ -675,6 +675,8 @@ button {
   display: none; }
 
 @media (min-width: 768px) {
+  .brands button {
+    cursor: pointer; }
   .brands .swiper {
     display: none; }
   .brands-content-wrapper {
@@ -744,6 +746,8 @@ button {
   display: none; }
 
 @media (min-width: 768px) {
+  button {
+    cursor: pointer; }
   .swiper {
     display: none; }
   .technique-content-wrapper {
