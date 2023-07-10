@@ -26,6 +26,9 @@
 }
 
 @media (min-width: 768px) {
+  button {
+    cursor: pointer;
+  }
   .swiper {
     display: none;
   }

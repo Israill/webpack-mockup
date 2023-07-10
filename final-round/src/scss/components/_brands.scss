@@ -30,6 +30,9 @@
 
 @media (min-width: 768px) {
   .brands {
+    button {
+      cursor: pointer;
+    }
     .swiper {
       display: none;
     }
