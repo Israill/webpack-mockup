@@ -4,3 +4,5 @@ import "../index.html";
 import "./swiper";
 import "./sidebar.js";
 import "./feedback.js";
+import "./technique.js";
+import "./brands.js";
