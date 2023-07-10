@@ -19,7 +19,9 @@
 
   .navbar {
     // .navbar__item--mb
+    
     &__item {
+      
     }
     &__item--mb {
       display: block;
@@ -43,6 +45,8 @@
 }
 
 .nav {
+  font-family: 'TT Lakes Medium';
+
   li {
     margin: 24px 0;
   }
@@ -63,6 +67,7 @@
     max-width: 320px;
   }
   .sidebar {
+    
   }
   .navbar-container-sidebar {
   }

@@ -5,12 +5,14 @@
     max-width: 288px;
     p {
       padding: 16px 0;
+    font-size: 14px;
+      
     }
     button {
       padding: 0;
     }
     .footer__btn {
-      width: 187px;
+      width: 192px;
       img {
       }
       span {
@@ -23,11 +25,12 @@
   // .footer__info
 
   &__info {
-    padding: 0 16px;
-    font-size: 14px;
-    margin-top: 40px;
-    border-top: 1px solid #d9fff5;
     text-align: center;
+    padding: 0 16px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: $gray-text;
+    border-top: 1px solid #d9fff5;
     p {
       padding: 8px 0;
     }

@@ -5,7 +5,7 @@ html {
 body {
   overflow-anchor: none;
   margin: 0;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'TT Lakes Regular';
   color: $main-text-color;
   background-color: $background;
   scroll-behavior: smooth;
@@ -36,6 +36,7 @@ ul {
 button {
   border: none;
   background-color: transparent;
+  font-family: 'TT Lakes Medium';
 }
 
 @media (min-width: 320px) {

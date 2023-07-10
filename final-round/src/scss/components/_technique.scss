@@ -1,9 +1,12 @@
 .technique {
+  
   .swiper {
     &-wrapper {
     }
   }
   .swiper-slide {
+    font-family: 'TT Lakes Medium';
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,6 +19,8 @@
   }
 
   &-content-wrapper {
+    font-family: 'TT Lakes Medium';
+
     display: none;
   }
 }
